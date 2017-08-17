@@ -21,12 +21,24 @@ h6 {
     font-weight: 700;
 }
 
+#profilePicture {
+    margin-top: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+#resumeLink {
+    font-size: 1.3em;
+    margin-left: 15%;
+}
 
 .topnav {
     font-size: 14px; 
 }
 
 .lead {
+    font-family: "Times New Roman", Times, serif;
     font-size: 18px;
     font-weight: 400;
 }
@@ -107,6 +119,7 @@ h6 {
 }
 
 .section-heading {
+    text-align: center;
     margin-bottom: 30px;
 }
 
