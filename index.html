@@ -15,6 +15,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -28,7 +29,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>JS Designs</title>
 
-    <style type="text/css">
+    <style>
+    .mySlides {
+        display:none
+    }
+
     .form-area {
         background-color: #FAFAFA;
         padding: 10px 40px 60px;
@@ -136,7 +141,7 @@
                 <div class="col-lg-5 ml-auto order-lg-1">
                     <img id="profilePicture" class="img-fluid" src="img/profile.jpg" alt="Face Picture">
                     <div id="resumeLink">
-                        <a href="/files/resume.pdf" download> <u>Download My Resume</u>
+                        <a href="/files/resume.pdf" download> <u>Download My Resume</u></a>
                     </div>
                 </div>
             </div>
@@ -144,73 +149,64 @@
     </section>
 
     <section id="viewPortfolio">
-    	<a name="portfolio"></a>
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-sm-8">
+                <div>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Portfolio</h2>
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/7611928e4bbb26783c93/34810901/960x678.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/26fd2a5cfc94a675a386/34810896/960x1357.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/4e141e4f664441f147e7/34810897/960x697.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/06e12dbc1d7a873299cc/34810899/960x678.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/fcd17ef7f61baf4dbff5/34810900/960x1357.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/110e4eb4711d661a8568/34810908/960x1357.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/26916aa2961538660700/34810907/960x1357.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/5a19e898bd7025164c95/34810905/960x678.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/ab0d3b6c3c3cf71773c9/34810910/960x678.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/72f83cd68cd0ab1a8f1d/34810911/960x678.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/9470aa596ad52e55de39/34810913/960x678.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/8477058bc289f3b139a2/34810914/960x678.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/6ab7292a9a92518f671e/34810915/960x1357.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/d7fca1dfa1e30ed090c7/34810995/960x678.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/299ab4b485b735e26461/34810920/960x960.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/e668848d3c9bd7bbeadd/34810921/960x960.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/23b71715495c045e03f2/34810917/843x846.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/1f23e24de563c2f7b793/34810918/844x847.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/99e26f8acf0a67aa36d7/34810919/835x840.webp">
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 col-sm-6">
-                     <img class="img-responsive" src="https://media.cmcdn.net/f0dd9d738626a77708ed/34810916/841x838.webp">
+                    <h2 class="section-heading">My Portfolio</h2>
+                    <div class="w3-content">
+                        <img class="mySlides" src="https://media.cmcdn.net/7611928e4bbb26783c93/34810901/960x678.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/fd006dac79db20924d86/35150505/960x1357.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/09e9400125f01380e9cb/35150504/960x724.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/0c4c536d5093d54c2b8b/35150502/1918x1446.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/071b0c38a6ba2036af2f/35150507/960x1357.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/fcd17ef7f61baf4dbff5/34810900/960x1357.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/110e4eb4711d661a8568/34810908/960x1357.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/26916aa2961538660700/34810907/960x1357.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/c98c56fbb7e03b6de8c3/35150506/960x678.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/4f276a71e151a65342e6/35150508/960x678.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/5a19e898bd7025164c95/34810905/960x678.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/ab0d3b6c3c3cf71773c9/34810910/960x678.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/72f83cd68cd0ab1a8f1d/34810911/960x678.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/9470aa596ad52e55de39/34810913/960x678.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/446a67daedb30436da3a/35150517/page(1)/bg(ffffff)/960x678-c.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/76975903c60fa841c6f8/35150522/page(1)/bg(ffffff)/960x1358-c.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/299ab4b485b735e26461/34810920/960x960.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/e668848d3c9bd7bbeadd/34810921/960x960.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/23b71715495c045e03f2/34810917/843x846.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/1f23e24de563c2f7b793/34810918/844x847.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/99e26f8acf0a67aa36d7/34810919/835x840.webp" style="width:100%">
+                        <img class="mySlides" src="https://media.cmcdn.net/f0dd9d738626a77708ed/34810916/841x838.webp" style="width:100%">
+                    </div>
+                    <div style="text-align: center">
+                        <p>
+                            <button type="button" class="text-primary" onclick="plusDivs(-1)">❮ Prev</button>
+                            <button type="button" class="text-primary" onclick="plusDivs(1)">Next ❯</button>
+                        </p>
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(1)">1</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(2)">2</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(3)">3</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(4)">4</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(5)">5</button>
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(6)">6</button>
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(7)">7</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(8)">8</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(9)">9</button>
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(10)">10</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(11)">11</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(12)">12</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(13)">13</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(14)">14</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(15)">15</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(16)">16</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(17)">17</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(18)">18</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(19)">19</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(20)">20</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(21)">21</button> 
+                        <button type="button" class="btn btn-primary" onclick="currentDiv(22)">22</button> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -295,5 +291,36 @@
     </div>
 </footer>
 
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+      $('html,body').scrollTop(0);
+      // $('html, body').animate({ scrollTop: 0 }, 'fast');
+    }
+
+    function currentDiv(n) {
+      $('html,body').scrollTop(0);
+      showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+         dots[i].className = dots[i].className.replace(" btn btn-primary", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      // dots[slideIndex-1].className += " w3-red";
+    }
+</script>
 </body>
 </html>
