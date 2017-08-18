@@ -41,6 +41,10 @@ h6 {
     margin-bottom: 5%;
 }
 
+#leftMargin {
+    margin-left: 30%;
+}
+
 #resumeLink {
     font-size: 1.3em;
     margin-left: 15%;
