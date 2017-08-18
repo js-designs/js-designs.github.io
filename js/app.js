@@ -23,15 +23,15 @@ function startApp () {
 		showView("viewContactMe");
 	}
 
-    function showView (viewName) {
-        $("main > section").hide();
-        $("#" + viewName).show();
-    }
+  function showView (viewName) {
+      $("main > section").hide();
+      $("#" + viewName).show();
+  }
 
-    function hide() {
-    	$("#viwHome").hide();
-    	$("#viewAbout").hide();
-    	$("#viewPortfolio").hide();
-    	$("#viewContactMe").hide();
-    }
+  function hide() {
+  	$("#viwHome").hide();
+  	$("#viewAbout").hide();
+  	$("#viewPortfolio").hide();
+  	$("#viewContactMe").hide();
+  }
 }

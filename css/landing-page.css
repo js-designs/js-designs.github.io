@@ -1,9 +1,3 @@
-/*
- * Start Bootstrap - Landing Page (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body,
 html {
     width: 100%;
@@ -19,6 +13,25 @@ h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.mySlides {
+    display:none
+}
+
+.form-area {
+    background-color: #FAFAFA;
+    padding: 10px 40px 60px;
+    margin: 10px 0px 60px;
+    border: 1px solid GREY;
+}
+
+.mySlides {
+    width:100%;
+}
+
+#buttonsPortfolio {
+    text-align: center;
 }
 
 #profilePicture {
@@ -185,5 +198,3 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
-
-
