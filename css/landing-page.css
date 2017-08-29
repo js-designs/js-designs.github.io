@@ -17,6 +17,7 @@ h6 {
 
 .mySlides {
     display:none
+    width:100%;
 }
 
 .form-area {
@@ -24,10 +25,6 @@ h6 {
     padding: 10px 40px 60px;
     margin: 10px 0px 60px;
     border: 1px solid GREY;
-}
-
-.mySlides {
-    width:100%;
 }
 
 #buttonsPortfolio {
@@ -54,9 +51,15 @@ h6 {
     font-size: 14px; 
 }
 
+#about-heading {
+    font-weight: normal; 
+    font-style: italic;
+}
+
 .lead {
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
+    font-style: italic;
     font-weight: 400;
 }
 
